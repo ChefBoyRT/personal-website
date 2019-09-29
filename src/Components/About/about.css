@@ -1,0 +1,20 @@
+.about-header {
+    border: 1px black solid;
+    width: 16em;
+    height: 4em;
+    position: relative;
+    top: 6em;
+    background-color: white;
+    text-align: center;
+}
+
+.about-card {
+    border: 1px black solid;
+    height: 50em;
+    width: 62em;
+    margin-top: 4em;
+}
+
+.about-container {
+    
+}
