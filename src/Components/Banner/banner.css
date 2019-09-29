@@ -6,8 +6,7 @@
 
 .logo {
     position: absolute;
-    width: 7em;
-    height: inherit;
+    width: 8em;
 }
 
 .quote {
@@ -17,6 +16,6 @@
 
 .name {
     text-align: center;
-    font-size: 4.5em;
+    font-size: 5em;
     letter-spacing: 7px;
 }

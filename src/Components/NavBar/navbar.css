@@ -2,20 +2,20 @@
     text-align: center;
     border-top: 1px black solid;
     border-bottom: 1px black solid;
-    height: 3em;
+    height: 3.7em;
 }
 
 .link {
     border-right: 1px black solid;
-    padding-left: 2em;
-    padding-right: 2em;
-    padding-top: 1em;
-    padding-bottom: 0.9em;
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-top: 1.3em;
+    padding-bottom: 1.3em;
     text-decoration: none;
 }
 
 .link-container {
-    padding-top: 1em;
+    padding-top: 1.3em;
 }
 
 .link.first {
