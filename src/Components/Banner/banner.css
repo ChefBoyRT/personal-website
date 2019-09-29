@@ -7,15 +7,19 @@
 .logo {
     position: absolute;
     width: 8em;
+    left: 15px;
+    top: 15px;
 }
 
 .quote {
     text-align: center;
     letter-spacing: 3px;
+    margin-top: 1.5em;
 }
 
 .name {
     text-align: center;
     font-size: 5em;
     letter-spacing: 7px;
+    margin: .7em;
 }
