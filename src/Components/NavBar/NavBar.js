@@ -4,12 +4,14 @@ import './navbar.css'
 
 const NavBar = () => {
     return (
-        <div>
-            <NavLink to='/'>Home</NavLink>
-            <NavLink to='/about'>About</NavLink>
-            <NavLink to='/blogs'>Blogs</NavLink>
-            <NavLink to='/projects'>Projects</NavLink>
-            <NavLink to='/contact'>Contact</NavLink>
+        <div className='bar'>
+            <div className='link-container'>
+                <NavLink className='link first' to='/'>Home</NavLink>
+                <NavLink className='link' to='/about'>About</NavLink>
+                <NavLink className='link' to='/blogs'>Blogs</NavLink>
+                <NavLink className='link' to='/projects'>Projects</NavLink>
+                <NavLink className='link' to='/contact'>Contact</NavLink>
+            </div>
         </div>
     );
 }

@@ -1,0 +1,31 @@
+.bar {
+    text-align: center;
+    border-top: 1px black solid;
+    border-bottom: 1px black solid;
+    height: 3em;
+}
+
+.link {
+    border-right: 1px black solid;
+    padding-left: 2em;
+    padding-right: 2em;
+    padding-top: 1em;
+    padding-bottom: 0.9em;
+    text-decoration: none;
+}
+
+.link-container {
+    padding-top: 1em;
+}
+
+.link.first {
+    border-left: 1px black solid;
+}
+
+.link:visited {
+    color: black;
+}
+
+.link:hover {
+    color: rgb(238, 156, 4);
+}

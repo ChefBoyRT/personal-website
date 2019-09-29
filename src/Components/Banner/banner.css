@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display+SC&display=swap');
+
+.name {
+    font-family: 'Playfair Display SC', serif;
+}
+
+.logo {
+    position: absolute;
+    width: 7em;
+    height: inherit;
+}
+
+.quote {
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+.name {
+    text-align: center;
+    font-size: 4.5em;
+    letter-spacing: 7px;
+}
