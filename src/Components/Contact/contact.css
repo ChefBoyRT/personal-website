@@ -1,0 +1,56 @@
+.contact-header {
+    border: 1px black solid;
+    width: 16em;
+    height: 2.2em;
+    position: relative;
+    background-color: white;
+    text-align: center;
+    padding-top: 1.2em;
+    font-size: 1.3em;
+    top: -2.5em;
+    left: -1px;
+}
+
+.contact-card {
+    position: relative;
+    left: 12em;
+    top: 3em;
+    border: 1px black solid;
+    height: 36.4em;
+    width: 58em;
+    margin-top: 1.3em;
+    margin-left: 4em;
+    box-shadow: 5px 5px 5px lightgrey;
+    background-color: rgb(229, 143, 143);
+}
+
+.contact-card-info {
+    position: relative;
+    top: -25px;
+    background-color: white;
+    height: 18.3em;
+    width: inherit;
+    border-top: 1px black solid;
+    text-align: center;
+    padding-top: 3em;
+    line-height: 3em;
+}
+
+.contact-icon {
+    width: 10em;
+    position: relative;
+    left: 25em;
+    top: -3em;
+}
+
+.contact-text {
+    text-align: justify;
+    line-height: 3em;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
+}
+
+.contact {
+    font-style: italic;
+}

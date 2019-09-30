@@ -1,17 +1,22 @@
 .about-header {
     border: 1px black solid;
-    width: 24em;
+    width: 16em;
     height: 2.2em;
     position: relative;
     top: 3em;
     background-color: white;
     text-align: center;
-    left: 4em;
+    left: 3.1em;
     padding-top: 1.2em;
-    /* box-shadow: 2px 2px 2px 2px lightgrey; */
+    font-size: 1.3em;
+    top: -2em;
+    left: -1px;
 }
 
 .about-card {
+    position: relative;
+    left: 12em;
+    top: 3em;
     border: 1px black solid;
     height: 49em;
     width: 58em;
@@ -23,9 +28,9 @@
 
 .about-card-info {
     position: relative;
-    top: 47.4px;
+    top: 4px;
     background-color: white;
-    height: 35.7em;
+    height: 33.9em;
     width: inherit;
     border-top: 1px black solid;
 }
@@ -34,7 +39,7 @@
     width: 10em;
     position: relative;
     left: 25em;
-    top: 1.5em;
+    top: -2.5em;
 }
 
 .about-text {

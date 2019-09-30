@@ -4,8 +4,8 @@ import './about.css'
 const About = () => {
     return (
         <div className='about-container'>
-            <div className='about-header'>About</div>
             <div className='about-card'>
+                <div className='about-header'>About</div>
                 <img className='about-icon' src='https://image.flaticon.com/icons/svg/912/912316.svg' alt='icon of man' />
                 <div className='about-card-info'>
                     <div className='about-text'>
