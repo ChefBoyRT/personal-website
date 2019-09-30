@@ -1,20 +1,46 @@
 .about-header {
     border: 1px black solid;
-    width: 16em;
-    height: 4em;
+    width: 24em;
+    height: 2.2em;
     position: relative;
-    top: 6em;
+    top: 3em;
     background-color: white;
     text-align: center;
+    left: 4em;
+    padding-top: 1.2em;
+    /* box-shadow: 2px 2px 2px 2px lightgrey; */
 }
 
 .about-card {
     border: 1px black solid;
-    height: 50em;
-    width: 62em;
-    margin-top: 4em;
+    height: 49em;
+    width: 58em;
+    margin-top: 1.3em;
+    margin-left: 4em;
+    box-shadow: 5px 5px 5px lightgrey;
+    background-color: rgb(212,236,240);
 }
 
-.about-container {
-    
+.about-card-info {
+    position: relative;
+    top: 47.4px;
+    background-color: white;
+    height: 35.7em;
+    width: inherit;
+    border-top: 1px black solid;
+}
+
+.about-icon {
+    width: 10em;
+    position: relative;
+    left: 25em;
+    top: 1.5em;
+}
+
+.about-text {
+    text-align: justify;
+    line-height: 3em;
+    padding-top: 2em;
+    padding-left: 3em;
+    padding-right: 3em;
 }
