@@ -1,3 +1,9 @@
+.contact-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
 .contact-header {
     border: 1px black solid;
     width: 16em;
@@ -12,23 +18,18 @@
 }
 
 .contact-card {
-    position: relative;
-    left: 12em;
-    top: 3em;
     border: 1px black solid;
     height: 36.4em;
     width: 58em;
-    margin-top: 1.3em;
-    margin-left: 4em;
     box-shadow: 5px 5px 5px lightgrey;
-    background-color: rgb(229, 143, 143);
+    background-color: rgb(250, 158, 158);
 }
 
 .contact-card-info {
     position: relative;
     top: -25px;
     background-color: white;
-    height: 18.3em;
+    height: 293.3px;
     width: inherit;
     border-top: 1px black solid;
     text-align: center;
@@ -39,8 +40,8 @@
 .contact-icon {
     width: 10em;
     position: relative;
-    left: 25em;
-    top: -3em;
+    left: 24em;
+    top: -4em;
 }
 
 .contact-text {
@@ -53,4 +54,26 @@
 
 .contact {
     font-style: italic;
+}
+
+.linkedin-logo {
+    height: 4em;
+    box-shadow: 2px 2px 2px darkgrey;
+    border-radius: 32px;
+}
+
+.github-logo {
+    height: 4em;
+    margin-left: 4em;
+    margin-top: 1em;
+    box-shadow: 2px 2px 2px darkgrey;
+    border-radius: 32px;
+}
+
+.about-email {
+    text-decoration: none;
+}
+
+.about-phone {
+    text-decoration: none;
 }

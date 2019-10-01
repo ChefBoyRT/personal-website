@@ -1,3 +1,9 @@
+.about-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
 .about-header {
     border: 1px black solid;
     width: 16em;
@@ -14,14 +20,9 @@
 }
 
 .about-card {
-    position: relative;
-    left: 12em;
-    top: 3em;
     border: 1px black solid;
     height: 49em;
     width: 58em;
-    margin-top: 1.3em;
-    margin-left: 4em;
     box-shadow: 5px 5px 5px lightgrey;
     background-color: rgb(212,236,240);
 }
