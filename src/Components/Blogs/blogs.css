@@ -1,5 +1,22 @@
+.blog-page-title-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.blog-page-title {
+    text-align: center;
+    height: 7.5rem;
+    width: 9rem;
+    padding-top: 0rem;
+    font-size: 2rem;
+    border: 1px black solid;
+    font-weight: normal;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+
 .blog-container {
-    padding-top: 4rem;
+    padding-top: 2rem;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
@@ -60,4 +77,9 @@
 .blog-pipe {
     padding-left: .25rem;
     padding-right: .25rem;
+}
+
+.medium-logo {
+    height: 7rem;
+    cursor: pointer;
 }
