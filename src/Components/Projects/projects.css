@@ -1,0 +1,28 @@
+.project-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-card {
+    border: 1px black solid;
+    width: 25rem;
+    text-align: center;
+    box-shadow: 3px 3px 3px lightgrey;
+}
+
+.project-image {
+    height: 10rem;
+}
+
+.project-page-title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.project-github-logo {
+    height: 7rem;
+    border: 1px black solid;
+    padding: 1rem;
+    box-shadow: 3px 3px 3px lightgrey;
+    cursor: pointer;
+}
