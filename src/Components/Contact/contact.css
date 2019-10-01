@@ -15,6 +15,7 @@
     font-size: 1.3em;
     top: -2.5em;
     left: -1px;
+    font-weight: normal;
 }
 
 .contact-card {
@@ -29,7 +30,7 @@
     position: relative;
     top: -25px;
     background-color: white;
-    height: 293.3px;
+    height: 293.6px;
     width: inherit;
     border-top: 1px black solid;
     text-align: center;
@@ -60,6 +61,7 @@
     height: 4em;
     box-shadow: 2px 2px 2px darkgrey;
     border-radius: 32px;
+    cursor: pointer;
 }
 
 .github-logo {
@@ -68,6 +70,7 @@
     margin-top: 1em;
     box-shadow: 2px 2px 2px darkgrey;
     border-radius: 32px;
+    cursor: pointer;
 }
 
 .about-email {

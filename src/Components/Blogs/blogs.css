@@ -2,7 +2,7 @@
     padding-top: 4rem;
     display: flex;
     justify-content: space-evenly;
-    margin-top: 2rem;
+    flex-direction: row;
 }
 
 .blog-card {
@@ -11,10 +11,11 @@
     border: 1px black solid;
     text-align: center;
     box-shadow: 3px 3px 3px 3px lightgrey;
+    cursor: pointer;
 }
 
 .blog-header {
-    background-color: rgb(181, 209, 162);
+    background-color: rgb(180, 219, 154);
     border-bottom: 1px black solid;
     height: 14.2rem;
     padding-top: 2rem;
@@ -41,4 +42,22 @@
 .blog-description {
     line-height: 1.7rem;
     padding: 1rem;
+}
+
+.blog-info {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+.blog-component-header {
+    text-align: center;
+}
+
+.line {
+    border-right: 1px black solid;
+}
+
+.blog-pipe {
+    padding-left: .25rem;
+    padding-right: .25rem;
 }
