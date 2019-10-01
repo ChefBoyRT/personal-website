@@ -1,0 +1,17 @@
+.blog-container {
+    padding: 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-card {
+    width: 25rem;
+    border: 1px black solid;
+    text-align: center;
+    padding: 2rem;
+}
+
+.blog-image {
+    height: 5em;
+    width: 10em;
+}
