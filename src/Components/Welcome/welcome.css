@@ -1,0 +1,45 @@
+.welcome-note-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    /* margin-left: 10%; */
+}
+
+.welcome-note-header {
+    position: relative;
+    border: 1px black solid;
+    width: 15rem;
+    top: -36px;
+    left: -33px;
+    background-color: #FFAF9C;
+}
+
+.welcome-note-header-content {
+    padding-left: 29px;
+    font-weight: normal;
+    font-size: 1.3rem;
+}
+
+.welcome-note-content {
+    border: 1px black solid;
+    padding: 2rem;
+    padding-top: 0;
+    padding-bottom: 5rem;
+    width: 25rem;
+    height: fit-content;
+    /* height: 20rem; */
+    line-height: 2rem;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+}
+
+.welcome-note-pic-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.welcome-image {
+    margin-top: 10rem;
+    height: 30rem;
+    border-radius: 1rem;
+    box-shadow: 3px 3px 3px 3px lightgrey;
+}

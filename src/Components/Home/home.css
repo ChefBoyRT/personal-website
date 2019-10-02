@@ -1,5 +1,10 @@
 .home-welcome {
     text-align: center;
-    font-size: 7rem;
+    font-size: 5rem;
     font-weight: normal;
+}
+
+.home-line {
+    border-right: 1px black solid;
+    margin-top: 5rem;
 }
