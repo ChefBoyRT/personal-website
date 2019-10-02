@@ -15,7 +15,6 @@ export default class Blogs extends Component {
     }
 
     render() {
-        console.log(this.state.blogs)
         return (
             <div>
                 <div className='blog-page-title-container'>

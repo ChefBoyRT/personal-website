@@ -1,28 +1,73 @@
+.project-page-title-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
 .project-container {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .project-card {
     border: 1px black solid;
-    width: 25rem;
+    width: 35rem;
+    height: 50rem;
     text-align: center;
     box-shadow: 3px 3px 3px lightgrey;
+    margin-bottom: 6rem;
+    cursor: pointer;
+}
+
+.project-header {
+    background-color: rgb(248, 223, 159);
+    border-bottom: 1px black solid;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
 }
 
 .project-image {
-    height: 10rem;
+    height: 13rem;
+    border: 1px black solid;
 }
 
-.project-page-title-container {
-    display: flex;
-    justify-content: center;
-}
 
 .project-github-logo {
-    height: 7rem;
+    height: 6rem;
     border: 1px black solid;
     padding: 1rem;
     box-shadow: 3px 3px 3px lightgrey;
     cursor: pointer;
+}
+
+.project-info {
+    padding-top: 1rem;
+}
+
+.project-title {
+    font-weight: bold;
+    font-size: 2.7rem;
+    padding-top: .5rem;
+    line-height: 2.5rem;
+}
+
+.project-description {
+    line-height: 2rem;
+    padding: 1rem;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    padding-bottom: 2.5rem;
+    text-align: justify;
+}
+
+.project-language {
+    font-style: italic;
+}
+
+.project-language-pipe {
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-style: normal;
 }

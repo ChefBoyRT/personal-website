@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin-top: 2rem;
+    margin-bottom: 2rem;
 }
 
 .blog-page-title {
@@ -16,15 +17,17 @@
 }
 
 .blog-container {
-    padding-top: 2rem;
+    padding-top: 1rem;
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .blog-card {
+    margin-bottom: 8rem;
     width: 30rem;
-    height: 40rem;
+    height: 45rem;
     border: 1px black solid;
     text-align: center;
     box-shadow: 3px 3px 3px 3px lightgrey;
@@ -32,10 +35,11 @@
 }
 
 .blog-header {
-    background-color: rgb(180, 219, 154);
+    background-color: rgb(196, 236, 170);
     border-bottom: 1px black solid;
     height: 14.2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
 }
 
 .blog-image {
@@ -54,11 +58,13 @@
 
 .blog-date-time {
     font-style: italic;
+    padding-bottom: .5rem;
 }
 
 .blog-description {
-    line-height: 1.7rem;
+    line-height: 2rem;
     padding: 1rem;
+    text-align: justify;
 }
 
 .blog-info {
@@ -75,8 +81,9 @@
 }
 
 .blog-pipe {
-    padding-left: .25rem;
-    padding-right: .25rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    font-style: normal;
 }
 
 .medium-logo {

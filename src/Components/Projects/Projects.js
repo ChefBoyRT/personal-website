@@ -18,7 +18,7 @@ export default class Projects extends Component {
         return (
             <div>
                 <div className='project-page-title-container'>
-                    <h1 className='project-page-title'><img className='project-github-logo' src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github logo' /></h1>
+                    <h1 className='project-page-title'><img className='project-github-logo' src='https://image.flaticon.com/icons/svg/25/25231.svg' alt='github logo' onClick={() => window.open('https://github.com/ChefBoyRT', "_blank")} /></h1>
                 </div>
                 <ProjectContainer projects={this.state.projects} />
             </div>
