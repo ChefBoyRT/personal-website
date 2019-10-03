@@ -150,20 +150,21 @@ left: -11px;
     position: relative;
     top: -20px;
     border-radius: 5px 5px 0px 0px;
-    color: rgb(105, 105, 105);
 }
 
 .timeline-year {
     position: relative;
     top: 8px;
+    color: black;
 }
 
 .timeline-company {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
     font-weight: bold;
 }
 
 .timeline-role {
     font-style: italic;
     padding-top: .1rem;
+    font-size: 1.25rem;
 }

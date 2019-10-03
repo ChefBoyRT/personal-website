@@ -65,7 +65,7 @@ export default function Timeline() {
                             <h2 className='timeline-year'>2014-2015</h2>
                         </div>
                         <p className='timeline-company'>Fordham University</p>
-                        <p className='timeline-role'>Undergraduate Degree, Business</p>
+                        <p className='timeline-role'>B.A., Business</p>
                     </div>
                 </div>
                 <div className="container right">
@@ -78,6 +78,33 @@ export default function Timeline() {
                     </div>
                 </div>
                 <div className="container left">
+                    <div className="content">
+                        <div className='timeline-year-header'>
+                            <h2 className='timeline-year'>2011</h2>
+                        </div>
+                        <p className='timeline-company'>Deer Valley Resort</p>
+                        <p className='timeline-role'>Head Soup Chef</p>
+                    </div>
+                </div>
+                <div className="container right">
+                    <div className="content">
+                        <div className='timeline-year-header'>
+                            <h2 className='timeline-year'>2011-2012</h2>
+                        </div>
+                        <p className='timeline-company'>Plates Restaurant</p>
+                        <p className='timeline-role'>Head Catering Chef</p>
+                    </div>
+                </div>
+                <div className="container left">
+                    <div className="content">
+                        <div className='timeline-year-header'>
+                            <h2 className='timeline-year'>2010-2012</h2>
+                        </div>
+                        <p className='timeline-company'>Picnic Catering Co.</p>
+                        <p className='timeline-role'>Business Owner | Private Chef</p>
+                    </div>
+                </div>
+                <div className="container right">
                     <div className="content">
                         <div className='timeline-year-header'>
                             <h2 className='timeline-year'>2010-2012</h2>

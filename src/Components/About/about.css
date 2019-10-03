@@ -2,6 +2,7 @@
     display: flex;
     justify-content: center;
     margin-top: 5%;
+    -webkit-animation: fadein 1s;
 }
 
 .about-header {
@@ -21,7 +22,7 @@
 
 .about-card {
     border: 1px black solid;
-    height: 49em;
+    height: 61.1rem;
     width: 58em;
     box-shadow: 5px 5px 5px lightgrey;
     background-color: rgb(212,236,240);
@@ -31,7 +32,7 @@
     position: relative;
     top: 4px;
     background-color: white;
-    height: 33.9em;
+    height: 46rem;
     width: inherit;
     border-top: 1px black solid;
 }

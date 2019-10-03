@@ -35,6 +35,7 @@
 .welcome-note-pic-container {
     display: flex;
     justify-content: space-evenly;
+    -webkit-animation: fadein 1s;
 }
 
 .welcome-image {
@@ -42,4 +43,10 @@
     height: 30rem;
     /* border-radius: 1rem; */
     box-shadow: 3px 3px 3px 3px lightgrey;
+}
+
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }

@@ -3,12 +3,14 @@
     justify-content: center;
     padding-top: 2rem;
     padding-bottom: 3rem;
+    -webkit-animation: fadein 1s;
 }
 
 .project-container {
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    -webkit-animation: fadein 1s;
 }
 
 .project-card {
