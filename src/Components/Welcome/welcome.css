@@ -25,7 +25,7 @@
     padding: 2rem;
     padding-top: 0;
     padding-bottom: 5rem;
-    width: 25rem;
+    width: 28rem;
     height: fit-content;
     /* height: 20rem; */
     line-height: 2rem;
@@ -38,8 +38,8 @@
 }
 
 .welcome-image {
-    margin-top: 10rem;
+    margin-top: 6rem;
     height: 30rem;
-    border-radius: 1rem;
+    /* border-radius: 1rem; */
     box-shadow: 3px 3px 3px 3px lightgrey;
 }

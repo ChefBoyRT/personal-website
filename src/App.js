@@ -9,6 +9,8 @@ import Projects from './Components/Projects/Projects'
 import Blogs from './Components/Blogs/Blogs'
 import Contact from './Components/Contact/Contact'
 import Banner from './Components/Banner/Banner'
+import Footer from './Components/Footer/Footer';
+import Picture from './Components/Pictures/Picture'
 
 function App() {
   return (
@@ -21,7 +23,9 @@ function App() {
           <Route exact path='/about' component={About} />
           <Route exact path='/projects' component={Projects} />
           <Route exact path='/blogs' component={Blogs} />
+          <Route exact path='/memories' component={Picture} />
           <Route exact path='/contact' component={Contact} />
+          <Footer />
         </div>
       </Router>
     </div>

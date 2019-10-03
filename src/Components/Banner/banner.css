@@ -20,6 +20,11 @@
 .name {
     text-align: center;
     font-size: 6em;
-    letter-spacing: 7px;
+    letter-spacing: 10px;
     margin: .7em;
+}
+
+.banner-v {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }

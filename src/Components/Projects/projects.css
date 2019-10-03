@@ -16,13 +16,13 @@
     width: 35rem;
     height: 50rem;
     text-align: center;
-    box-shadow: 3px 3px 3px lightgrey;
+    box-shadow: 3px 3px 3px 3px lightgrey;
     margin-bottom: 6rem;
     cursor: pointer;
 }
 
 .project-header {
-    background-color: rgb(248, 223, 159);
+    background-color: rgba(247, 232, 105, 0.658);
     border-bottom: 1px black solid;
     padding-top: 4rem;
     padding-bottom: 4rem;
@@ -38,7 +38,7 @@
     height: 6rem;
     border: 1px black solid;
     padding: 1rem;
-    box-shadow: 3px 3px 3px lightgrey;
+    box-shadow: 3px 3px 3px 3px lightgrey;
     cursor: pointer;
 }
 

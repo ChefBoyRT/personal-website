@@ -13,7 +13,7 @@
     font-size: 2rem;
     border: 1px black solid;
     font-weight: normal;
-    box-shadow: 3px 3px 3px lightgrey;
+    box-shadow: 3px 3px 3px 3px lightgrey;
 }
 
 .blog-container {
@@ -25,7 +25,7 @@
 }
 
 .blog-card {
-    margin-bottom: 8rem;
+    margin-bottom: 6rem;
     width: 30rem;
     height: 45rem;
     border: 1px black solid;
@@ -35,7 +35,7 @@
 }
 
 .blog-header {
-    background-color: rgb(196, 236, 170);
+    background-color: rgb(213, 238, 197);
     border-bottom: 1px black solid;
     height: 14.2rem;
     padding-top: 3rem;

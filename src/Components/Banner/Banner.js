@@ -7,7 +7,7 @@ const Banner = () => {
             <img className='logo' src={require('./logo.jpeg')} alt='logo' />
             <div>
                 <p className='quote'>BE YOURSELF. EVERYONE ELSE IS ALREADY TAKEN.</p>
-                <h1 className='name'>Taylor V. Stein</h1>
+                <h1 className='name'>Taylor <span className='banner-v'>V.</span> Stein</h1>
             </div>
         </div>
     );

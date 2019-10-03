@@ -4,7 +4,8 @@
     font-weight: normal;
 }
 
-.home-line {
+.home-verticle-line {
     border-right: 1px black solid;
-    margin-top: 5rem;
+    margin-top: 6rem;
+    margin-bottom: 2rem;
 }
