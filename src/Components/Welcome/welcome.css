@@ -15,7 +15,7 @@
 }
 
 .welcome-note-header-content {
-    padding-left: 29px;
+    text-align: center;
     font-weight: normal;
     font-size: 1.3rem;
 }
@@ -27,7 +27,6 @@
     padding-bottom: 5rem;
     width: 28rem;
     height: fit-content;
-    /* height: 20rem; */
     line-height: 2rem;
     box-shadow: 3px 3px 3px 3px lightgrey;
 }
@@ -41,6 +40,5 @@
 .welcome-image {
     margin-top: 6rem;
     height: 30rem;
-    /* border-radius: 1rem; */
     box-shadow: 3px 3px 3px 3px lightgrey;
 }
