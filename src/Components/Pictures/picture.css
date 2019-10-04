@@ -14,6 +14,7 @@
     height: 15rem;
     margin: 5px;
     transition: all .2s ease-in-out;
+    cursor: pointer;
 }
 
 .picture-info {
@@ -24,6 +25,7 @@
     position: relative;
     top: 2rem;
     line-height: 1.7rem;
+    cursor: pointer;
 }
 
 .picture-icon-container {
