@@ -9,7 +9,7 @@ export default class PicturesContainer extends Component {
     }
 
     componentDidMount() {
-        fetch('http://localhost:3000/pictures')
+        fetch('https://personal-website-taylor-stein.herokuapp.com/pictures')
             .then(response => response.json())
             .then(pictures => this.setState({pictures: pictures}))
     }

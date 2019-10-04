@@ -5,3 +5,8 @@
     font-family: 'Raleway', sans-serif;
     letter-spacing: 2px;
 }
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}

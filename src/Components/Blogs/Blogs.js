@@ -9,7 +9,7 @@ export default class Blogs extends Component {
     }
 
     componentDidMount(){
-        fetch('http://localhost:3000/blogs')
+        fetch('https://personal-website-taylor-stein.herokuapp.com/blogs')
             .then(response => response.json())
             .then(blogs => this.setState({blogs: blogs}))
     }

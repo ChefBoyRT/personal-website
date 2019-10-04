@@ -44,9 +44,3 @@
     /* border-radius: 1rem; */
     box-shadow: 3px 3px 3px 3px lightgrey;
 }
-
-
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
-}

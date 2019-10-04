@@ -9,7 +9,7 @@ export default class Projects extends Component {
     }
 
     componentDidMount(){
-        fetch('http://localhost:3000/projects')
+        fetch('https://personal-website-taylor-stein.herokuapp.com/projects')
             .then(response => response.json())
             .then(projects => this.setState({projects: projects}))
     }
