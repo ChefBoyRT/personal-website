@@ -7,7 +7,7 @@ export default function WelcomeNote() {
             <div className='welcome-note-container'>
                 <div className='welcome-note-content'>
                     <div className='welcome-note-header'>
-                        <h3 className='welcome-note-header-content'>Welcome Note</h3>
+                        <h3 className='welcome-note-header-content'>Welcome</h3>
                     </div>
                     <div className='welcome-note-content-container'>
                         <p className='welcome-note-text'>
