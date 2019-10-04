@@ -11,12 +11,12 @@ export default function WelcomeNote() {
                     </div>
                     <div className='welcome-note-content-container'>
                         <p className='welcome-note-text'>
-                        Say taco one more time. Tacos for breakfast, lunch and dinner. Black or pinto beans? 
-                        Add in a few el Pastor with guac and diced onions. Tacos al pastor made with adobada meat. 
-                        You see, the refried beans are really just the adhesive necessary to apply the soft tortilla 
-                        to the hard taco shell. It’s long been rumored that the chupacabra is really just a crazed 
-                        man who’s local taco shop went out of business. Carne asada on corn tortillas. Ooh, with diced 
-                        onions and a pinch of cilantro.
+                            Welcome to my website and thank you so much for taking the time to review my work. 
+                            Development fascinates me. I recently graduated with an MBA at University of Denver
+                            before enrolling in a development bootcamp that taught me full stack software engineering
+                            at a production ready level in 15 weeks. I'd like to let my projects speak for themselves,
+                            in a similar way, I spent many years working my way up from a dishwasher to a regional manager
+                            of a popular restaurant chain. Thank you again for taking the time to click through my site!
                         </p>
                     </div>
                 </div>
