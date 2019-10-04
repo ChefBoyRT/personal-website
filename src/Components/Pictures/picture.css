@@ -28,6 +28,14 @@
     cursor: pointer;
 }
 
+.picture-location {
+    font-weight: bold;
+}
+
+.picture-date {
+    font-style: italic;
+}
+
 .picture-icon-container {
     display: flex;
     justify-content: center;
