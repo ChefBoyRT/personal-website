@@ -12,11 +12,12 @@ export default function WelcomeNote() {
                     <div className='welcome-note-content-container'>
                         <p className='welcome-note-text'>
                             Welcome to my website and thank you so much for taking the time to review my work. 
-                            Development fascinates me. I recently graduated with an MBA at University of Denver
-                            before enrolling in a development bootcamp that taught me full stack software engineering
-                            at a production ready level in 15 weeks. I'd like to let my projects speak for themselves,
-                            in a similar way, I spent many years working my way up from a dishwasher to a regional manager
-                            of a popular restaurant chain. Thank you again for taking the time to click through my site!
+                            Software development fascinates me. Over the last 15 weeks, I have had the privilege
+                            to work with some of the most brilliant people and be insipired by the incredible
+                            instructors at the Flatiron School. This website is a complete representation of myself
+                            and everything I have to offer, for now, more to come. Do not hesitate to reach out to me through
+                            my contact page if you would like to connect or have any further questions. Thanks again for
+                            checking out my site!
                         </p>
                     </div>
                 </div>
