@@ -4,7 +4,6 @@
 ## Table of contents
 * [General info](#general-info)
 * [Technologies](#technologies)
-* [Setup](#setup)
 * [Features](#features)
 * [Status](#status)
 * [Inspiration](#inspiration)
@@ -14,10 +13,16 @@
 ## General info
 
 ## Technologies
-
-## Setup
-
-## Code Examples
+React
+React Native
+Victory Charts
+Recipe API
+HTML5
+CSS
+Javascript
+Ruby - version 2.6.1
+ActiveRecord - version 5.2
+PostgreSQL - version 11
 
 ## Features
 
@@ -34,3 +39,4 @@ Project is: finished with option to expand functionality and DRY out code.
 Feel free to contact me!
 
 ## License
+[Click to view](https://github.com/ChefBoyRT/personal-website/blob/master/LICENSE)
