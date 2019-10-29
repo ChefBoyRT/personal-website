@@ -1,37 +1,23 @@
 # Personal Website
 > My personal website. Enjoy!
 
+<p align="center">
+  <img width="600" height="400" src="https://media.giphy.com/media/jpVkFtB9DIK9Ra31Mg/giphy.gif">
+</p>
+
 ## Table of contents
-* [General info](#general-info)
 * [Technologies](#technologies)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
 * [Contact](#contact)
 * [License](#license)
 
-## General info
-
 ## Technologies
-React
-React Native
-Victory Charts
-Recipe API
-HTML5
-CSS
-Javascript
-Ruby - version 2.6.1
-ActiveRecord - version 5.2
-PostgreSQL - version 11
-
-## Features
-
-To-do list:
-
-## Status
-Project is: finished with option to expand functionality and DRY out code.
-
-## Inspiration
+* React
+* HTML5
+* CSS
+* Javascript
+* Ruby - version 2.6.1
+* ActiveRecord - version 5.2
+* PostgreSQL - version 11
 
 ## Contact
 [Taylor Stein](www.linkedin.com/in/taylor-stein)
