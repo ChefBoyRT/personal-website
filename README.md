@@ -2,7 +2,7 @@
 > My personal website. Enjoy!
 
 <p align="center">
-  <img width="600" height="400" src="https://media.giphy.com/media/jpVkFtB9DIK9Ra31Mg/giphy.gif">
+  <img width="650" height="400" src="https://media.giphy.com/media/jpVkFtB9DIK9Ra31Mg/giphy.gif">
 </p>
 
 ## Table of contents
