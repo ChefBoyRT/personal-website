@@ -27,7 +27,7 @@ export default class PicturesContainer extends Component {
             <div className='picture-container'>
                 {this.state.pictures.length > 0
                     ? this.renderPictures()
-                    : <Spinner />
+                    : <div><Spinner /></div>
                 }
             </div>
         )

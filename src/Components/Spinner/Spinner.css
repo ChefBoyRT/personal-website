@@ -1,4 +1,4 @@
 .spinner {
-    position: absolute;
-    right: 46%;
+    position: relative;
+    left: 46%;
 }
