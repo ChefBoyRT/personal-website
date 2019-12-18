@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import PictureCard from './PictureCard'
 import './picture.css'
+import Spinner from '../Spinner/Spinner'
 
 export default class PicturesContainer extends Component {
 
@@ -24,7 +25,10 @@ export default class PicturesContainer extends Component {
     render() {
         return (
             <div className='picture-container'>
-                {this.renderPictures()}
+                {this.state.pictures.length > 0
+                    ? this.renderPictures()
+                    : <Spinner />
+                }
             </div>
         )
     }

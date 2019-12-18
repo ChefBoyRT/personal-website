@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import BlogContainer from './BlogContainer'
 import './blogs.css'
+import Spinner from '../Spinner/Spinner'
 
 export default class Blogs extends Component {
 
@@ -20,7 +21,10 @@ export default class Blogs extends Component {
                 <div className='blog-page-title-container'>
                     <h1 className='blog-page-title'><img className='medium-logo' onClick={()=> window.open("https://medium.com/@taylor.stein09", "_blank")} src='https://pageflows.com/media/logos/medium.jpg' alt='medium logo' /></h1>
                 </div>
-                <BlogContainer blogs={this.state.blogs} />
+                {this.state.blogs.length > 0 
+                    ? <BlogContainer blogs={this.state.blogs} />
+                    : <Spinner />
+                }
             </div>
         )
     }
